@@ -1,0 +1,139 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3334864129" file="C:\Users\labadmin\Desktop\Arduino ARTsy\Acclimate.prj" location="C:\Users\labadmin\Desktop\Arduino ARTsy" name="Acclimate" target="target.mlapps" target-name="Package App">
+    <param.appname>Acclimate</param.appname>
+    <param.authnamewatermark>Yow-Tyng (Tim) Yeh</param.authnamewatermark>
+    <param.email>yy2722@columbia.edu</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\labadmin\AppData\Local\Temp\tpd16143ca_f016_4e8e_8581_e66b2de0bb01.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\GUI_apps_Arduio_ARTsy</param.output>
+    <param.guid>7085fc45-947e-46e2-b955-047336d28bb2</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Acclimate_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ArduinoConstants.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\BaseClass.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\BluetoothDeviceTypeEnum.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\BluetoothHostTransportLayer.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\BoardInfo.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ConnectionTypeEnum.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\encode.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\endsWith.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\getDefaultLibraryPropertyValue.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\getFullLibraryList.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\getLibraryClassName.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\isICTInstalled.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\LinuxUtility.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\localizedError.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\MacUtility.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\MWProtocol.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ProtocolBase.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\renderArrayOfIntsToCharVector.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\renderCellArrayOfCharVectorsToCharVector.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\ResourceManager.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\searchDefaultPropertyValue.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\SerialHostTransportLayer.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\TabCompletionHelper.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\TCPHostTransportLayer.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\TransportLayerBase.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\Utility.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\UtilityCreator.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\validateDigitalParameter.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\validateDoubleParameterRanged.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\validateInputPin.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\validateIntArrayParameterRanged.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\validateIntParameterRanged.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\WiFiEncryptionTypeEnum.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\WiFiStatusEnum.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+internal\WindowsUtility.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\+setup\+internal\HardwareInterface.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\AddonBase.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\FilePath.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\i2cdev.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\IDERoot.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\LibraryBase.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\PackageRoot.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\rotaryEncoder.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\Servo.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\ServoMotorBase.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\shiftRegister.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\spidev.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\+arduinoio\SPPKGRoot.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\@arduino\arduino.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\matlab\hardware\supportpackages\arduinoio\listArduinoLibraries.m</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\realtime\targets\arduinoide\+ide\+internal\getArduinoIDERootDir.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2017b\toolbox\realtime\targets\arduinoide\+ide\+internal\getArduinoSAMRootDir.p</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\labadmin\Desktop\Arduino ARTsy" name="GUI_apps_Arduio_ARTsy" optional="false">C:\Users\labadmin\Desktop\Arduino ARTsy\GUI_apps_Arduio_ARTsy</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
